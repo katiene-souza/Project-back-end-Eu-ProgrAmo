@@ -3,9 +3,9 @@
 # Curso Online Eu ProgrAmo - Back End 🚀
 
  ### Tecnologias utilizadas:
-![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117)&nbsp;
 ![NodeJS](https://img.shields.io/badge/-Node.js-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117)&nbsp;
 ![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=for-the-badge&logo=mongodb&labelColor=0D1117&textColor=0D1117)&nbsp;
+![Insomnia](https://img.shields.io/badge/-Insomnia-0D1117?style=for-the-badge&logo=insomnia&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 
 Neste projeto feito pelo curso Eu progrAmo da progamaria, criei o back-end para o site "Mulheres em Tech Brasil", onde temos personalidades femininas que fizeram a diferença em tecnologia.
