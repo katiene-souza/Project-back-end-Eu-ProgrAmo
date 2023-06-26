@@ -17,9 +17,7 @@ const findGirls = async (req, res) => {
         res.json(girlsDatabase);
 
     } catch(err) {
-        res.status(404).json({
-            error: err
-        });
+        res.status(404).json(err);
     };
 };
 
@@ -29,13 +27,10 @@ const createGirl = async (req, res) => {
 
         const newGirl = await girls.create(girl);
 
-        res.status(201).json(data: newGirl);
+        res.status(201).json(newGirl);
         
     } catch (err) {
-        res.status(404).json({
-            message: "girls not created",
-            error: err
-        });
+        res.status(404).json(err);
     };
 };
 
@@ -48,10 +43,7 @@ const updateGirl = async (req, res) => {
         res.status(201).json(girlById);
     
        } catch (err) {
-            res.status(404).json({
-                message: "id not found",
-                error: err
-            });
+            res.status(404).json(err);
        };
 };
 
@@ -61,15 +53,10 @@ const deleteGirl = async (req, res) => {
 
         await girls.findByIdAndDelete(id);
 
-        res.status(201).json({
-            message: "sucess"
-        });
+        res.status(201).json("sucess");
 
     } catch(err) {
-        res.status(404).json({
-            message: "id not found",
-            error: err
-        });
+        res.status(404).json(err);
     };
 };
 
