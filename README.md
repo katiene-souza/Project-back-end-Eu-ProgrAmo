@@ -8,7 +8,7 @@
 ![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=for-the-badge&logo=mongodb&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 
-Nesse projeto feito no curso Eu progrAmo da progamaria, criei o back-end para o site "Mulheres em Tech Brasil", onde temos personalidades femininas que fizeram a diferença em tecnologia.
+Neste projeto feito pelo curso Eu progrAmo da progamaria, criei o back-end para o site "Mulheres em Tech Brasil", onde temos personalidades femininas que fizeram a diferença em tecnologia.
 
 ### Utilizando aplicação front-end conectada ao meu back-end:
 
