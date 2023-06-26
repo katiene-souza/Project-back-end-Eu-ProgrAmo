@@ -14,9 +14,7 @@ const findGirls = async (req, res) => {
     try {
         const girlsDatabase = await girls.find();
 
-        res.json({
-           girlsDatabase
-        });
+        res.json(girlsDatabase);
 
     } catch(err) {
         res.status(404).json({
