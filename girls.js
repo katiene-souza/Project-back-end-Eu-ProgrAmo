@@ -29,10 +29,7 @@ const createGirl = async (req, res) => {
 
         const newGirl = await girls.create(girl);
 
-        res.status(201).json({
-            message: "sucess",
-            data: newGirl
-        });
+        res.status(201).json(data: newGirl);
         
     } catch (err) {
         res.status(404).json({
@@ -48,10 +45,7 @@ const updateGirl = async (req, res) => {
     
         const girlById = await girls.findByIdAndUpdate(id, girl);
     
-        res.status(201).json({
-            message: "sucess",
-            data: girlById
-        });
+        res.status(201).json(girlById);
     
        } catch (err) {
             res.status(404).json({
