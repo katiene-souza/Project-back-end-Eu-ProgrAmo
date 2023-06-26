@@ -2,10 +2,13 @@
 
 # Curso Online Eu ProgrAmo - Back End 🚀
 
+ ### Tecnologias utilizadas:
+![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&labelColor=0D1117)&nbsp;
+![NodeJS](https://img.shields.io/badge/-Node.js-0D1117?style=for-the-badge&logo=node.js&labelColor=0D1117)&nbsp;
+![MongoDB](https://img.shields.io/badge/-MongoDB-0D1117?style=for-the-badge&logo=mongodb&labelColor=0D1117&textColor=0D1117)&nbsp;
+
+
 Nesse projeto feito no curso Eu progrAmo da progamaria, criei o back-end para o site "Mulheres em Tech Brasil", onde temos personalidades femininas que fizeram a diferença em tecnologia.
-
-![image](https://github.com/katiene-souza/Project-back-end-Eu-ProgrAmo/assets/85809975/0e3b4a19-3848-4791-91bf-66f125030495)
-
 
 Dentro do projeto, fiz desde a criação das rotas com express para que o front possa requisitar, até a comunicação com o banco de dados, utilizando o mongoose para criação do modelo da entidade e conexão com o mongoDB e o dotenv para proteção de dados.
 
