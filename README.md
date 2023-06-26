@@ -10,6 +10,11 @@
 
 Nesse projeto feito no curso Eu progrAmo da progamaria, criei o back-end para o site "Mulheres em Tech Brasil", onde temos personalidades femininas que fizeram a diferença em tecnologia.
 
+### Utilizando aplicação front-end conectada ao meu back-end:
+
+
+https://github.com/katiene-souza/Project-back-end-Eu-ProgrAmo/assets/85809975/72bf5cab-20f2-4327-af6d-d6220de5a12f
+
 Dentro do projeto, fiz desde a criação das rotas com express para que o front possa requisitar, até a comunicação com o banco de dados, utilizando o mongoose para criação do modelo da entidade e conexão com o mongoDB e o dotenv para proteção de dados.
 
 Depois desse processo fiz o deploy do código e conectei ele com o front-end com o site "Mulheres em Tech Brasil" feito pela progamaria.
